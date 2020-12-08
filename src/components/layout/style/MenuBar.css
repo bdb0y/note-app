@@ -1,0 +1,18 @@
+.menuBox {
+    padding: 0;
+    display: flex;
+}
+
+.menuBox a {
+    margin: 0;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.menuBox a:hover {
+    background: gray;
+}

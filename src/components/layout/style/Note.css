@@ -1,0 +1,9 @@
+span {
+    font-size: .95rem;
+}
+
+.note {
+    border-bottom: .5px dotted black;
+    padding: 10px 0;
+    text-align: justify;
+}

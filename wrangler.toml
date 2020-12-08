@@ -1,0 +1,10 @@
+name = "note-app"
+type = "webpack"
+account_id = "716a060a5a93ccb183bb99dfe4ec02f0"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"

@@ -1,0 +1,142 @@
+.login-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4rem 1rem;
+    border-radius: .5rem;
+}
+
+.login-box div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-right-side {
+    background-color: white;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.login-right-side form {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.login-right-side form input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid gray;
+    padding: .75rem 0;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.login-right-side form input::placeholder {
+    color: gray;
+}
+
+.login-right-side form input:focus {
+    outline: none;
+}
+
+.login-right-side h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login-right-side button {
+    border-radius: 2rem;
+    padding: .7rem;
+    border: 0;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.login-right-side button:focus {
+    outline: none;
+}
+
+.login-right-side div {
+    padding: 4rem 7rem;
+}
+
+.login-left-side {
+    border-radius: 1rem 0 0 1rem;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.login-left-side div {
+    padding: 8rem 4rem;
+}
+
+
+.login-left-side div h1 {
+    font-size: 2rem;
+    line-height: 1rem;
+}
+
+.login-left-side div hr {
+    height: .1rem;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.login-left-side p {
+    text-align: justify;
+    font-size: .95rem;
+    margin-bottom: 2rem;
+}
+
+.login-left-side button {
+    width: 40%;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2rem;
+    padding: .4rem;
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+
+    .login-box {
+        padding: 2rem .5rem;
+        /*flex-direction: column;*/
+        flex-direction: column-reverse;
+    }
+
+    .login-box h3 {
+        margin-bottom: 1rem;
+    }
+
+    /*.login-left-side div h1 {*/
+    /*    font-size: 1.8rem;*/
+    /*    line-height: 1.4rem;*/
+    /*}*/
+
+    .login-left-side {
+        /*border-radius: 0 0 1rem 1rem;*/
+        display: none;
+    }
+
+    .login-right-side {
+        border-radius: 1rem;
+    }
+
+    .login-left-side div {
+        /*padding: 4rem 2rem;*/
+        display: none;
+    }
+
+    .login-right-side div {
+        padding: 4rem 3rem;
+    }
+
+    .login-right-side form input {
+        margin-bottom: 2rem;
+    }
+}
